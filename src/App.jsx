@@ -1,6 +1,7 @@
 
 import './App.css'
-import FormFront from './components/FormFront'
+import FormAdm from './components/FormAdm'
+import FormAluno from './components/FormAluno'
 import HeaderFront from './components/HeaderFront'
 
 function App() {
@@ -8,7 +9,8 @@ function App() {
   return (
     <>
       <HeaderFront />
-      <FormFront/>
+      <FormAluno/>
+      <FormAdm/>
     </>
   )
 }
