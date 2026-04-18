@@ -1,7 +1,8 @@
 import { useState } from 'react';
 import api from '../service/api';
+import HeaderFront from '../components/HeaderFront';
 
-function FormFront() {
+function FormAlunos() {
 
     const [nome, setNome] = useState("");
     const [sobrenome, setSobrenome] = useState("");
@@ -59,7 +60,7 @@ function FormFront() {
                     </div>
 
                     <button type="submit">
-                        Cadastrar Aluno
+                        Cadastrar Aluno(a)
                     </button>
                 </form>
             </main>
@@ -67,4 +68,4 @@ function FormFront() {
     )
 }
 
-export default FormFront;
+export default FormAlunos;
