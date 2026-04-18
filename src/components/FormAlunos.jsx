@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import api from '../service/api';
+import HeaderFront from '../components/HeaderFront';
 
 function FormAlunos() {
 
