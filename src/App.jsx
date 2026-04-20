@@ -1,6 +1,7 @@
 
 import { BrowserRouter, Routes, Route} from 'react-router-dom';
 import './App.css'
+import './index.css';
 import FormAdm from './components/FormAdm'
 import FormAlunos from './components/FormAlunos'
 import InitialPage from './components/InitialPage'

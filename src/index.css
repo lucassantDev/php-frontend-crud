@@ -26,6 +26,16 @@ main{
   justify-content: center;
 }
 
+.initialMain{
+  width: 100%;
+  height: 100vh;
+  border: 1px solid red;
+
+  & section{
+    
+  }
+}
+
 form{
   width: 50%;
   height: 60vh;

@@ -1,5 +1,6 @@
 import { Navigate, useNavigate } from "react-router-dom";
 
+
 function InitialPage() {
 
     const navigate = useNavigate()
@@ -14,8 +15,7 @@ function InitialPage() {
 
     return (
         <>
-            
-            <main>
+            <main className="initialMain">
                 <section>
                     <button onClick={() => ToFormAdm()}>
                         Cadastrar Administrador(a)
